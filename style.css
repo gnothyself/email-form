@@ -1,0 +1,27 @@
+div.wrap {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 500px;
+}
+
+textarea {
+    height: 200px;
+}
+
+button {
+    margin-left: 15px;
+}
+
+@media all and (max-width: 600px) {
+    input, textarea {
+        width: 400px;
+    }
+}
